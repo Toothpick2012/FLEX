@@ -32,4 +32,4 @@ jobs:
 
       - name: package
         run: |
-          pod package FLEX.podspec --library
+          pod package ./FLEX.podspec --library
